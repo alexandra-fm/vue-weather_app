@@ -96,6 +96,7 @@ export default {
 
 <style scoped lang="scss">
 .app-wrap{
+  width: 400px;
   background-image: url("../assets/cold-bg.jpg");
   background-size: cover;
   background-position: bottom;
