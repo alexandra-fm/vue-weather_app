@@ -2,13 +2,11 @@
   "name": "weather_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexandra-fm.github.io/vue-weather_app/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
